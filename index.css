@@ -1,0 +1,93 @@
+body {
+    background: black;
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: xx-large;
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+}
+.glitch {
+    color: #f7f7f7;
+    position: relative;
+    font-size: 9vw;
+// margin: 70px 200px;
+}
+
+.subtitle{
+    font-family: "Oswald", sans-serif;
+    font-size: x-large;
+    color: #999999;
+}
+a {
+    text-decoration: none;
+    color: #999999;
+    transition: all .2s ease-in;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #5a6268;
+    transition: all .2s ease-in;
+}
+#head {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F800444533757509602%2F&psig=AOvVaw2KpmzxdvpzbjWTvlfYNQRg&ust=1597152192980000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKjU3NvdkOsCFQAAAAAdAAAAABAD");
+    margin: 0;
+    padding: 222px 0px 222px 0px;
+    text-align: center;
+    color: white;
+}
+.parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#vote {
+    margin: 10px;
+    text-align: center;
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+
+#vote h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+#vote h2 {
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+#vote p {
+    margin-top: 3px;
+    font-size: 18px;
+}
+
+#vote .votelist {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+
+#vote .voteblock {
+    transform: none;
+    transition: all .2s ease-in;
+}
+
+.voteblock a {
+    font-weight: 700;
+}
+
+
+
